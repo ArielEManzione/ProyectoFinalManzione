@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap');
+    </style>
+    <title>Fixture Qatar</title>
+</head>
+<body>
+    <header>
+		<nav class="navbar navbar-qatar">
+			<a class="navbar-brand d-flex">
+				<img src="./imagenes/logo.png" class="logo">
+				<h1 class="h2 navbar-text">Fixture Grupos Qatar 2022</h1>
+			</a>
+
+            <div class="justify-content-end" >
+				<div id="clima">
+
+                </div>
+                <div class="logoutdiv">
+                    <button id="logout" >Cerrar Sesión</button>
+                </div>                
+                
+			</div>
+
+		</nav>
+	</header>
+    
+    <main>
+        
+        <div class="grupos" id="A" >            
+
+            <div id="tablaPosicionesA">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Dom 20/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido1">
+                            <img src="imagenes/qatar.gif"> QAT <input type="number" class="golesA qatar" min="0" max="99"> - <input type="number" class="golesA ecuador" min="0" max="99"> ECU <img src="imagenes/ecuador.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Lun 21/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido2">
+                            <img src="imagenes/senegal.gif"> SEN <input type="number" class="golesA senegal" min="0" max="99"> - <input type="number" class="golesA paisesbajos" min="0" max="99"> PAI <img src="imagenes/paisesbajos.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Vie 25/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido3">
+                            <img src="imagenes/ecuador.gif"> ECU <input type="number" class="golesA ecuador" min="0" max="99"> - <input type="number" class="golesA paisesbajos" min="0" max="99"> PAI <img src="imagenes/paisesbajos.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Vie 25/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido4">
+                            <img src="imagenes/qatar.gif"> QAT <input type="number" class="golesA qatar" min="0" max="99"> - <input type="number" class="golesA senegal" min="0" max="99"> SEN <img src="imagenes/senegal.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Mar 29/11, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido5">
+                            <img src="imagenes/qatar.gif"> QAT <input type="number" class="golesA qatar" min="0" max="99"> - <input type="number" class="golesA paisesbajos" min="0" max="99"> PAI <img src="imagenes/paisesbajos.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mar 29/11, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoAPartido6">
+                            <img src="imagenes/ecuador.gif"> ECU <input type="number" class="golesA ecuador" min="0" max="99"> - <input type="number" class="golesA senegal" min="0" max="99"> SEN <img src="imagenes/senegal.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="B" >            
+
+            <div id="tablaPosicionesB">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Lun 21/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido1">
+                            <img src="imagenes/inglaterra.gif"> ING <input type="number" class="golesB inglaterra" min="0" max="99"> - <input type="number" class="golesB iran" min="0" max="99"> IRA <img src="imagenes/iran.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Lun 21/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido2">
+                            <img src="imagenes/eeuu.gif"> USA <input type="number" class="golesB eeuu" min="0" max="99"> - <input type="number" class="golesB gales" min="0" max="99"> GAL <img src="imagenes/gales.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Vie 25/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido3">
+                            <img src="imagenes/iran.gif"> IRA <input type="number" class="golesB iran" min="0" max="99"> - <input type="number" class="golesB gales" min="0" max="99"> GAL <img src="imagenes/gales.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Vie 25/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido4">
+                            <img src="imagenes/inglaterra.gif"> ING <input type="number" class="golesB inglaterra" min="0" max="99"> - <input type="number" class="golesB eeuu" min="0" max="99"> USA <img src="imagenes/eeuu.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Mar 29/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido5">
+                            <img src="imagenes/inglaterra.gif"> ING <input type="number" class="golesB inglaterra" min="0" max="99"> - <input type="number" class="golesB gales" min="0" max="99"> GAL <img src="imagenes/gales.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mar 29/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoBPartido6">
+                            <img src="imagenes/iran.gif"> IRA <input type="number" class="golesB iran" min="0" max="99"> - <input type="number" class="golesB eeuu" min="0" max="99"> USA <img src="imagenes/eeuu.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="C" >            
+
+            <div id="tablaPosicionesC">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Mar  22/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido1">
+                            <img src="imagenes/argentina.gif"> ARG <input type="number" class="golesC argentina" min="0" max="99"> - <input type="number" class="golesC arabia" min="0" max="99"> ARA <img src="imagenes/arabiasaudita.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mar  22/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido2">
+                            <img src="imagenes/mexico.gif"> MEX <input type="number" class="golesC mexico" min="0" max="99"> - <input type="number" class="golesC polonia" min="0" max="99"> POL <img src="imagenes/polonia.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Sab  26/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido3">
+                            <img src="imagenes/arabiasaudita.gif"> ARA <input type="number" class="golesC arabia" min="0" max="99"> - <input type="number" class="golesC polonia" min="0" max="99"> POL <img src="imagenes/polonia.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Sab  26/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido4">
+                            <img src="imagenes/argentina.gif"> ARG <input type="number" class="golesC argentina" min="0" max="99"> - <input type="number" class="golesC mexico" min="0" max="99"> MEX <img src="imagenes/mexico.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Mie  30/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido5">
+                            <img src="imagenes/argentina.gif"> ARG <input type="number" class="golesC argentina" min="0" max="99"> - <input type="number" class="golesC polonia" min="0" max="99"> POL <img src="imagenes/polonia.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mie  30/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoCPartido6">
+                            <img src="imagenes/arabiasaudita.gif"> ARA <input type="number" class="golesC arabia" min="0" max="99"> - <input type="number" class="golesC mexico" min="0" max="99"> MEX <img src="imagenes/mexico.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="D" >            
+
+            <div id="tablaPosicionesD">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Mar 22/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido1">
+                            <img src="imagenes/francia.gif"> FRA <input type="number" class="golesD francia" min="0" max="99"> - <input type="number" class="golesD australia" min="0" max="99"> AUS <img src="imagenes/australia.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mar 22/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido2">
+                            <img src="imagenes/dinamarca.gif"> DIN <input type="number" class="golesD dinamarca" min="0" max="99"> - <input type="number" class="golesD tunez" min="0" max="99"> TUN <img src="imagenes/tunez.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Sab  26/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido3">
+                            <img src="imagenes/australia.gif"> AUS <input type="number" class="golesD australia" min="0" max="99"> - <input type="number" class="golesD tunez" min="0" max="99"> TUN <img src="imagenes/tunez.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Sab  26/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido4">
+                            <img src="imagenes/francia.gif"> FRA <input type="number" class="golesD francia" min="0" max="99"> - <input type="number" class="golesD dinamarca" min="0" max="99"> DIN <img src="imagenes/dinamarca.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Mie  30/11, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido5">
+                            <img src="imagenes/francia.gif"> FRA <input type="number" class="golesD francia" min="0" max="99"> - <input type="number" class="golesD tunez" min="0" max="99"> TUN <img src="imagenes/tunez.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mie  30/11, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoDPartido6">
+                            <img src="imagenes/australia.gif"> AUS <input type="number" class="golesD australia" min="0" max="99"> - <input type="number" class="golesD dinamarca" min="0" max="99"> DIN <img src="imagenes/dinamarca.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="E" >            
+
+            <div id="tablaPosicionesE">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Mie 23/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido1">
+                            <img src="imagenes/espana.gif"> ESP <input type="number" class="golesE espana" min="0" max="99"> - <input type="number" class="golesE costarica" min="0" max="99"> COS <img src="imagenes/costarica.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mie 23/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido2">
+                            <img src="imagenes/alemania.gif"> ALE <input type="number" class="golesE alemania" min="0" max="99"> - <input type="number" class="golesE japon" min="0" max="99"> JAP <img src="imagenes/japon.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Dom 27/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido3">
+                            <img src="imagenes/costarica.gif"> COS <input type="number" class="golesE costarica" min="0" max="99"> - <input type="number" class="golesE japon" min="0" max="99"> JAP <img src="imagenes/japon.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Dom 27/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido4">
+                            <img src="imagenes/espana.gif"> ESP <input type="number" class="golesE espana" min="0" max="99"> - <input type="number" class="golesE alemania" min="0" max="99"> ALE <img src="imagenes/alemania.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Jue 1/12, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido5">
+                            <img src="imagenes/espana.gif"> ESP <input type="number" class="golesE espana" min="0" max="99"> - <input type="number" class="golesE japon" min="0" max="99"> JAP <img src="imagenes/japon.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Jue 1/12, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoEPartido6">
+                            <img src="imagenes/costarica.gif"> COS <input type="number" class="golesE costarica" min="0" max="99"> - <input type="number" class="golesE alemania" min="0" max="99"> ALE <img src="imagenes/alemania.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="F" >            
+
+            <div id="tablaPosicionesF">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Mie 23/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido1">
+                            <img src="imagenes/belgica.gif"> BEL <input type="number" class="golesF belgica" min="0" max="99"> - <input type="number" class="golesF canada" min="0" max="99"> CAN <img src="imagenes/canada.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Mie 23/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido2">
+                            <img src="imagenes/marruecos.png"> MAR <input type="number" class="golesF marruecos" min="0" max="99"> - <input type="number" class="golesF croacia" min="0" max="99"> CRO <img src="imagenes/croacia.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Dom 27/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido3">
+                            <img src="imagenes/canada.gif"> CAN <input type="number" class="golesF canada" min="0" max="99"> - <input type="number" class="golesF croacia" min="0" max="99"> CRO <img src="imagenes/croacia.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Dom 27/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido4">
+                            <img src="imagenes/belgica.gif"> BEL <input type="number" class="golesF belgica" min="0" max="99"> - <input type="number" class="golesF marruecos" min="0" max="99"> MAR <img src="imagenes/marruecos.png">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Jue 1/12, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido5">
+                            <img src="imagenes/belgica.gif"> BEL <input type="number" class="golesF belgica" min="0" max="99"> - <input type="number" class="golesF croacia" min="0" max="99"> CRO <img src="imagenes/croacia.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Jue 1/12, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoFPartido6">
+                            <img src="imagenes/canada.gif"> CAN <input type="number" class="golesF canada" min="0" max="99"> - <input type="number" class="golesF marruecos" min="0" max="99"> MAR <img src="imagenes/marruecos.png">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="G" >            
+
+            <div id="tablaPosicionesG">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Jue 24/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido1">
+                            <img src="imagenes/brasil.gif"> BRA <input type="number" class="golesG brasil" min="0" max="99"> - <input type="number" class="golesG serbia" min="0" max="99"> SER <img src="imagenes/serbia.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Jue 24/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido2">
+                            <img src="imagenes/suiza.png"> SUI <input type="number" class="golesG suiza" min="0" max="99"> - <input type="number" class="golesG camerun" min="0" max="99"> CAM <img src="imagenes/camerun.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Lun 28/11, <span>07:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido3">
+                            <img src="imagenes/serbia.gif"> SER <input type="number" class="golesG serbia" min="0" max="99"> - <input type="number" class="golesG camerun" min="0" max="99"> CAM <img src="imagenes/camerun.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Lun 28/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido4">
+                            <img src="imagenes/brasil.gif"> BRA <input type="number" class="golesG brasil" min="0" max="99"> - <input type="number" class="golesG suiza" min="0" max="99"> SUI <img src="imagenes/suiza.png">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Vie 2/12, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido5">
+                            <img src="imagenes/brasil.gif"> BRA <input type="number" class="golesG brasil" min="0" max="99"> - <input type="number" class="golesG camerun" min="0" max="99"> CAM <img src="imagenes/camerun.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Vie 2/12, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoGPartido6">
+                            <img src="imagenes/serbia.gif"> SER <input type="number" class="golesG serbia" min="0" max="99"> - <input type="number" class="golesG suiza" min="0" max="99"> SUI <img src="imagenes/suiza.png">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+		<div class="grupos" id="H" >            
+
+            <div id="tablaPosicionesH">
+
+            </div>
+            <div class="contenedor">
+                <div class="partido">
+                    Fecha 1
+                    <div> Jue 24/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido1">
+                            <img src="imagenes/portugal.gif"> POR <input type="number" class="golesH portugal" min="0" max="99"> - <input type="number" class="golesH ghana" min="0" max="99"> GHA <img src="imagenes/ghana.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Jue 24/11, <span>13:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido2">
+                            <img src="imagenes/uruguay.gif"> URU <input type="number" class="golesH uruguay" min="0" max="99"> - <input type="number" class="golesH coreadelsur" min="0" max="99"> COR <img src="imagenes/coreadelsur.gif">
+                        </div>
+                    </div>
+                </div>
+
+                <br>        
+                <br>        
+                <div class="partido">
+                    Fecha 2
+                    <div> Lun 28/11, <span>10:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido3">
+                            <img src="imagenes/ghana.gif"> GHA <input type="number" class="golesH ghana" min="0" max="99"> - <input type="number" class="golesH coreadelsur" min="0" max="99"> COR <img src="imagenes/coreadelsur.gif">
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Lun 28/11, <span>16:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido4">
+                            <img src="imagenes/portugal.gif"> POR <input type="number" class="golesH portugal" min="0" max="99"> - <input type="number" class="golesH uruguay" min="0" max="99"> URU <img src="imagenes/uruguay.gif">
+                        </div>
+                    </div>
+                </div>
+                <br>        
+                <br>        
+
+                <div class="partido">
+                    Fecha 3
+                    <div> Vie 2/12, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido5">
+                            <img src="imagenes/portugal.gif"> POR <input type="number" class="golesH portugal" min="0" max="99"> - <input type="number" class="golesH coreadelsur" min="0" max="99"> COR <img src="imagenes/coreadelsur.gif"> 
+                        </div>
+                    </div>
+                    <br>        
+                    <div> Vie 2/12, <span>12:00 </span></div>
+                    <div>
+                        <div id="grupoHPartido6">
+                            <img src="imagenes/ghana.gif"> GHA <input type="number" class="golesH ghana" min="0" max="99"> - <input type="number" class="golesH uruguay" min="0" max="99"> URU <img src="imagenes/uruguay.gif">
+                        </div>
+                    </div>
+                </div>                
+                <div>
+                    <button class="btnTabla">Actualizar Tabla</button>
+                </div>
+            </div>
+
+        </div>
+		
+    </main>
+    
+    <script src="js/datosLS.js"></script>
+    <script src="js/importarEquipos.js"></script>
+    <script src="js/cargarDatos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
